@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    gap: 100px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background-color: #1B244A;
+    padding: 68px 83px;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 0;
+    color: #fff;
+}
+
+.home__points, .guest__points {
+    background-color: black;
+    margin: 21px 0 0;
+    padding: 0;
+    width: 155px;
+    height: 120px;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+
+.home__add-points, .guest__add-points {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background: #000;
+}
